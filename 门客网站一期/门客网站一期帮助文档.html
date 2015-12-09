@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.2.1 (452715)"/><meta name="author" content="王鸣旭"/><meta name="created" content="2015-11-30 03:15:15 +0000"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2015-11-30 06:17:00 +0000"/><title>门客网站一期帮助文档</title></head><body>
+<div>写在前面：</div>
+<div>     类名、Id是使用驼峰法则来写的。</div>
+<div><br/></div>
+<div><span style="font-size: 36px;">首页</span></div>
+<ul>
+<li>首页主要分这样几个部分：顶部，头图，专栏介绍区，登录后显示区，登录模块和底部。</li>
+<li>后端渲染可能涉及的部分为：
+<ul>
+<li>登录后用户显示：
+<ul>
+<li>id personalHead 用户头像</li>
+<li>id myColHref 我的专栏跳转链接</li>
+<li>id myColUpload 专栏发布页面链接</li>
+</ul>
+</li>
+<li>专栏介绍区：
+<ul>
+<li>id recLeft 推荐左专栏</li>
+<li>id recRight 推荐右专栏</li>
+<li>class colImg 专栏封面图</li>
+<li>class owner 用户姓名</li>
+<li>class colLocation 用户学校</li>
+<li>class colTitle  专栏名称</li>
+<li>class colUrl 专栏详情跳转页面链接</li>
+<li>class colArtical 专栏内容</li>
+<li>class colDate 专栏创建时间</li>
+</ul>
+</li>
+<li>登录模块
+<ul>
+<li>id inputPhone 用户手机号</li>
+<li>id inputPassword 用户密码</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div><br/></div>
+<div><span style="font-size: 36px;">专栏</span></div>
+<ul>
+<li>专栏主要分这样几个部分：顶部，头图，专栏介绍区，登录后显示区，登录模块和底部，类名与首页相同。</li>
+</ul>
+<div><br/></div>
+<div><span style="font-size: 36px;">专栏详情</span></div>
+<ul>
+<li>专栏主要分这样几个部分：顶部，头图，专栏介绍区，登录后显示区，登录模块和底部。</li>
+<li>特有字段为：
+<ul>
+<li>id detailsTitle 专栏名称</li>
+<li>id detailsOwner 专栏作者</li>
+<li>id school 用户学校</li>
+<li>id relationship 查看者与用户关系</li>
+<li>id detailsDate 专栏创建日期</li>
+<li>id keys 专栏标签</li>
+<li>id article 专栏内容</li>
+</ul>
+</li>
+</ul>
+<div><span style="font-size: 36px;">我的专栏</span></div>
+<ul>
+<li>我的专栏主要分上部和专栏展示区。
+<ul>
+<li>上部
+<ul>
+<li>id colHead 用户头像</li>
+<li>id owner 用户名称</li>
+</ul>
+</li>
+<li>专栏展示区
+<ul>
+<li>class mycolumnImg 封面图</li>
+<li>class  mycolumnTitle 专栏标题</li>
+<li>class mycolumnSum 专栏摘要</li>
+<li>class mycolDate 专栏日期</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div><span style="font-size: 36px;">上传专栏</span></div>
+<ul>
+<li>上传专栏主要分为图片上传部分和富文本编辑部分两块
+<ul>
+<li>图片上传
+<ul>
+<li>id coverImg 封面图片</li>
+<li>id imgList 用户已上传图片列表</li>
+<li>id uploadImg 用户新上传图片</li>
+</ul>
+</li>
+<li>富文本编辑区
+<ul>
+<li>id uploadTitle 专栏名称</li>
+<li>id uploadKeys 专栏标签</li>
+<li>id sum 专栏摘要</li>
+<li>id myEditor 文章正文</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div>   </div>
+<div><span style="font-size: 48px;">页面实现功能</span></div>
+<ul>
+<li>首页 专栏页 
+<ul>
+<li>ajax实现页面加载专栏</li>
+<li>ajax提交用户登录信息</li>
+</ul>
+</li>
+<li>我的专栏
+<ul>
+<li>删除用户专栏</li>
+<li>ajax加载专栏(或模版引擎直接渲染)</li>
+</ul>
+</li>
+<li>上传专栏
+<ul>
+<li>富文本编辑</li>
+<li>图片上传</li>
+</ul>
+</li>
+</ul>
+</body></html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>专栏详情</title>
+	<meta charset = 'utf-8'>
+	<link rel="stylesheet" type="text/css" href="link/src/main.css">
+</head>
+<body>
+	<header>
+		<img src="link/img/logo.png">
+		<nav>
+			<ul>
+				<li class="navs"><a href="index.html">首页</a></li>
+				<li class="navs"><a href="column.html">专栏</a></li>
+				<li class="navs"><a href="download.html">APP下载</a></li>
+				<li class="navs"><a href="aboutus.html">关于我们</a></li>
+			</ul>
+		</nav>
+		<!-- 用户登录后显示 -->
+		<div id="personalPart">
+			<img id="personalHead" src="test/personal_image_head.png">
+			<div id="showPerson">
+				<img src="link/img/personal_image_head_bg.png">
+				<div class="listItem" id="myCol"><a id="myColHref" href="mycolumn.html">我的专栏</a></div>
+				<div class="listItem" id="exit">退出</div>
+			</div>
+			<div id="postColumn" class="btn"><a id="myColUpload" href="upload.html">发布专栏</a></div>
+		</div>
+		<!-- 用户未登录显示 -->
+<!-- 		<div id="login" class="btn" onclick="showLogin()">
+			登录
+		</div> -->
+	</header>
+	<div class="bannerPanel">
+		<div class="bannerBody">
+			<img id="banner" class="banner" src="test/back.png">
+		</div>
+		<div id="detailsTop">
+			<div id="detailsTitle">每个人心中都有个天使</div>
+			<div id="details">
+				<span><img id="detailsHead" src="test/back.png" alt=""></span>
+				<span id="detailsOwner">张楚楚</span>
+				<span><img src="link/img/columndetails_icon_location.png" alt=""></span>
+				<span id="School">北京大学</span>
+				<span><img src="link/img/columndetails_icon_link.png" alt=""></span>
+				<span id="relationship">校友</span>
+			</div>
+		</div>
+	</div>
+	<div class="content detailsCon">
+		<div id="detailsDate">2015年11月25日</div>
+		<div class="mainContent">
+			<span id="keys">
+				<span>天使</span>
+				<span>内心</span>
+				<span>善良</span>
+			</span>
+			<div id="artical">
+				<p>
+					但，它一定是存在的,并需要你用心寻找,才能雕刻出来。 (第一段提出全文论点, ,即论述“是什么”)雕刻家用他的手将天使复原，让世人看见了他的面貌，我们赞叹他
+					精湛的技艺，却往将更重要的一环忽略了：他找到了心中的天使，并且抓住了它。若没有这一步，一切的技巧都是枉然。
+				</p>
+			</div>
+		</div>
+		
+
+	</div>
+
+	<footer>
+		Copyright © 2015.正蒙同创 JoinMind All rights reserved.
+	</footer>
+
+	<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<!-- // <script type="text/javascript" src="js/jquery.min.js"></script> -->
+	<script type="text/javascript" src="link/js/main.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>

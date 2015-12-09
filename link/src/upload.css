@@ -1,0 +1,53 @@
+/*cssreset*/
+body,div,ul,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td,img { 
+    padding: 0; 
+    margin: 0; 
+    font-family: '微软雅黑'
+} 
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+} 
+fieldset,img { 
+    border: 0; 
+} 
+ul { 
+    list-style: none; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: normal; 
+    font-size: 100%; 
+} 
+/*头部*/
+#top{
+    width: 600px;
+    margin-left: 100px;
+    height: 100px;
+}
+
+/*图片上传模块*/
+#formLoad{
+    position: absolute;
+    left: 800px;
+    top: 100px;
+	width: 300px;
+	text-align: center;
+}
+#imgList{
+    vertical-align: middle;
+}
+#imgList img{
+    height: 100px;
+}
+#imgList input[type='radio']{
+    float: right;
+    margin-top: 50px;
+}
+
+/*富文本编辑器*/
+#richtext{
+    width: 600px;
+    margin :0 100px;
+    text-align: center;
+}

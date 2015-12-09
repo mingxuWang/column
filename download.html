@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>下载门客APP</title>
+	<meta charset = 'utf-8'>
+	<link rel="stylesheet" type="text/css" href="link/src/main.css">
+</head>
+<body>
+
+	<div id="backImg">
+	  <div><img style="min-width: 1000px" src="link/img/background.png"></div>
+	</div>
+	<header>
+		<img src="link/img/logoWhite.png">
+		<nav>
+			<ul>
+			<li class="navs fontWhite"><a href="index.html">首页</a></li>
+			<li class="navs fontWhite"><a href="column.html">专栏</a></li>
+			<li class="navs fontWhite"><a href="download.html">APP下载</a></li>
+			<li class="navs fontWhite"><a href="aboutus.html">关于我们</a></li>
+			</ul>
+		</nav>
+		<!-- 未登录显示 -->
+		<div id="borderWhite" class=" btn" onclick="showLogin()">
+			登录
+		</div>
+
+		<!-- 登录后显示 -->
+<!-- 		<div id="personalPart">
+			<img id="personalHead" src="test/personal_image_head.png">
+			<div id="showPerson">
+				<img src="link/img/personal_image_head_bg.png">
+				<div class="listItem" id="myCol"><a id="myColHref" href="mycolumn.html">我的专栏</a></div>
+				<div class="listItem" id="exit">退出</div>
+			</div>
+			<div id="postColumn" class="btn"><a id="myColUpload" href="upload.html">发布专栏</a></div>
+		</div> -->
+
+	</header>
+	<div class="content">
+		<div id="des">
+			<div id="possible" class="fontWhite">门客，让一切成为可能</div>
+			<div id="wordPart" class="fontWhite">
+				<div>开放、共享、及时</div>
+				<div>优质资本、智慧导师</div>
+				<div>让创业有知识到创意、由创意变现实</div>
+			</div>
+			<div id="downPart">
+				<div class="downBtn btn" id="ios">iPhone版下载
+					<img src="link/img/download_image_ioscode.png">
+				</div>
+				<div class="downBtn btn" id="android">Android版下载
+					<img src="link/img/download_image_androidcode.png">
+				</div>
+			</div>
+
+			<img id="phone" src="link/img/phone.png">
+		</div>
+		<div id="partOne">
+			<img src="link/img/image_circle.png">
+			<div id="quanzi">我们都在一个圈子</div>
+			<div id="canyu">随时随地个人动态，随时随地的参与其中</div>
+		</div>
+	</div>
+	<div id="apart">
+		<div class="content">
+			<div id="partTwo">
+				<div id="faxian">发现你我他</div>
+				<div id="guocheng">发现一个从0到1的过程</div>
+				<img src="link/img/image_find.png">
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div id="partThr">
+			<div id="team">我们的团队</div>
+			<img src="link/img/bottom.png">
+		</div>
+	</div>
+
+
+
+	<footer>
+		Copyright © 2015.正蒙同创 JoinMind All rights reserved.
+	</footer>
+
+
+	<!-- 登录模块 -->
+	<div id="loginPart" style="display:none">
+		<div id="loginPanel">
+			<img src="link/img/login_image_logo.png" title="门客" alt="门客logo" id="loginLogo">
+			<img src="link/img/login_icon_delete.png" title="退出登录" alt="退出登录" id="offIcon" onclick="showLogin()">
+			<div id="loginSlogen"><img src="link/img/login_possible.png"></div>
+			<div id="phoneNumber" class="inputBtn">
+				<div class="loginIcon"><img src="link/img/login_icon_no.png" alt=""></div>
+				<input id="inputPhone" class="inputText" type="text" placeholder= '请输入手机号'>
+			</div>
+			<div id="password" class="inputBtn">
+				<div class="loginIcon"><img src="link/img/login_icon_lock.png" alt=""></div>
+				<input id="inputPassword" class="inputText" type="password" placeholder= '请输入密码'>
+			</div>
+			<div id="btnLogin" class="inputBtn btn fontWhite" onclick="redirect()">登录</div>
+		</div>
+		<div id="cover">
+		</div>
+	</div>
+	
+	<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<!-- // <script type="text/javascript" src="js/jquery.min.js"></script> -->
+	<script type="text/javascript" src="link/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
